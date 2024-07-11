@@ -38,8 +38,8 @@ Start the development server:
     - npm start
 Backend
 The backend for this app is implemented separately. You can find the backend repository here
-    ```
-    https://github.com/kabuiya/myDiaryEndpoints ```
+   
+    https://github.com/kabuiya/myDiaryEndpoints
 
 ### Configuration
 - Webpack
