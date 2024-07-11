@@ -1,0 +1,249 @@
+
+.entryContent{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1) 1px, transparent 0.5px);
+     background-size: 100% 60px;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    width: 80%;
+}
+
+
+form{
+    background-color: #F0F0F0 ;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+}
+
+.msg{
+    color: red;
+}
+
+.headerColor{
+    color: #8133FF;;
+}
+
+
+.overlayContent {
+  
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+  width: 60%;
+}
+
+
+.btn {
+    color: #8133FF;
+}
+
+
+
+
+.editEntryContainer{
+    height: 300px;
+}
+
+
+.entry{
+    justify-content: center;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto ;
+    padding: 40px;
+    
+}
+
+
+/* Base styles */
+.base_fullHeight {
+  height: 100vh;
+}
+
+.base_flexCenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.base_flexColumn {
+  display: flex;
+  flex-direction: column;
+}
+
+.base_textWhite {
+  color: white;
+}
+
+.base_noBorder {
+  border: none;
+}
+
+/* Layout */
+.layout_container {
+  width: 80%;
+  margin: auto;
+  padding: 20px;
+}
+
+.layout_gap20 {
+  gap: 20px;
+}
+
+.layout_gap30 {
+  gap: 30px;
+}
+
+.layout_gap40 {
+  gap: 40px;
+}
+
+/* Background */
+.bg_primary {
+  background-color: #7033FF;
+}
+
+.bg_secondary {
+  background-color: #8133FF;
+}
+
+.bg_light {
+  background-color: #F0F0F0;
+}
+.bg_dark {
+  background-color: black;
+}
+
+.bg_white {
+  background-color: white;
+}
+
+.bg_image {
+  background-size: cover;
+  background-image: url('../public/images/b3.jpg');
+}
+
+/* Typography */
+.text_center {
+  text-align: center;
+}
+
+.text_underline {
+  text-decoration: underline;
+}
+
+.text_bold {
+  font-weight: bolder;
+}
+
+.text_cursive {
+  font-family: 'Dancing Script', cursive;
+}
+
+.text_lineHeight200 {
+  line-height: 200%;
+}
+
+.text_lineHeight250 {
+  line-height: 2.5;
+}
+
+/* Components */
+.button_primary {
+  background-color: #7033FF;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+  font-weight: bolder;
+  text-decoration: none;
+}
+
+.input_form {
+  /* Add styles for form inputs */
+}
+
+.card_quote {
+  width: 50%;
+  border-radius: 20px 10px;
+  height: 200px;
+  overflow: hidden;
+}
+
+.card_diary {
+  background-color: #F8F8F8;
+  box-shadow: 0 0 5px 5px #DCDCDC;
+}
+
+.card_entry {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1) 1px, transparent 1px);
+  background-size: 100% 40px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Animations */
+/* @keyframes changeBackground {
+  0% { background-color: #7033FF; }
+  50% { background-color: blueviolet; }
+  100% { background-color: #8133FF; }
+} */
+
+/* .animation_backgroundChange {
+  animation: changeBackground 15s linear infinite;
+} */
+
+/* Utility classes */
+.util_truncate {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.util_overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 1000;
+}
+
+/* Add these utility classes */
+.util_padding10 {
+  padding: 10px;
+}
+
+.util_marginTop30 {
+  margin-top: 30px;
+}
+
+.util_marginLeft_auto {
+  margin-left: auto;
+}
+
+.util_alignSelf_end {
+  align-self: flex-end;
+}
+
+/* Modify the card_quote class */
+.card_quote {
+  width: 50%;
+  border-radius: 20px 10px;
+  height: 200px;
+  overflow: hidden;
+  padding: 10px;
+}
+
+/* Add a class for the entry paragraph style */
+.text_entry {
+  white-space: pre-line;
+  word-wrap: break-word;
+  letter-spacing: 1px;
+  text-shadow: 0.03em 0.03em 0 black;
+  margin: 0;
+  padding: 10px 0;
+  font-size: large;
+}
